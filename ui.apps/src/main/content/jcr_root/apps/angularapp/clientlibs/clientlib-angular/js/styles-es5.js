@@ -464,7 +464,7 @@
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! C:\Users\eduardo.borges\Documents\AEM\Treinamentos\angularapp\ui.frontend\src\styles.css */
+    /*! C:\Users\alamy.pereira\Desktop\aem-sdk\aem\aem.angular\ui.frontend\src\styles.css */
     "./src/styles.css");
     /***/
   }

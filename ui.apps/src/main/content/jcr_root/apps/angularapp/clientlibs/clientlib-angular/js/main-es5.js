@@ -976,7 +976,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! C:\Users\eduardo.borges\Documents\AEM\Treinamentos\angularapp\ui.frontend\src\main.ts */
+    /*! C:\Users\alamy.pereira\Desktop\aem-sdk\aem\aem.angular\ui.frontend\src\main.ts */
     "./src/main.ts");
     /***/
   }
