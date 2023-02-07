@@ -1,10 +1,31 @@
-<p>texto {{text}}</p>
+<header>
+  <h1>{{title}}</h1>
+  <p>{{text}}</p>
+</header>
 
-  <h1>titulo: {{title}}</h1>
+<section class="bodyCNPJ">
 
-  <div>
-    asdlasdçklajs çalskdjçaslkdj
-    a~sdçljka~sdçljka <br/>
-    adskajsdçlaksj
+  <p>Digite a empresa que você procura:</p>
+  <div class="formBox">
+    <input 
+        type="text" 
+        placeholder="000.000.000-00" 
+        id="cnpj" 
+        name="cnpj" 
+        #cnpj
+        />
+    <button class="consultar" (click)="Consultar()">Consultar</button>
   </div>
+ 
 
+  <div class="result">
+    <!-- <img *ngIf="show" src={{this.avatar}} alt={{this.nome}} title={{this.nome}} class="img-perfil"> -->
+    <p>Nome: <span>{{this.nome}}</span></p>
+    <p>Descrição:  <span>{{this.descricao}}</span></p>
+    <p>Data de Abertura:  <span>{{this.uf}}</span></p>
+    <p>UF: <span>{{this.uf}}</span></p>
+    <p>Bairro: <span>{{this.bairro}}</span></p>
+    <p>CEP: <span>{{this.cep}}</span></p>
+    <p>TELEFONE: <span>{{this.telefone}}</span></p>
+  </div>
+</section>

@@ -34,7 +34,7 @@
                  sling:resourceType="granite/ui/components/coral/foundation/container">
             <items jcr:primaryType="nt:unstructured">
                <title cq-msm-lockable="./title"
-                      fieldLabel="Meu Texto"
+                      fieldLabel="Meu Titulo"
                       jcr:primaryType="nt:unstructured"
                       name="./title"
                       sling:resourceType="granite/ui/components/coral/foundation/form/textfield"/>
