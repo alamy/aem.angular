@@ -22,6 +22,8 @@ import { AemAngularCoreWcmComponentsListV2 } from "@adobe/aem-core-components-an
 import { AemAngularCoreWcmComponentsSeparatorV1 } from "@adobe/aem-core-components-angular-base/authoring/separator/v1";
 import { AemAngularCoreWcmComponentsAccordionV1 } from "@adobe/aem-core-components-angular-spa/containers/accordion/v1";
 import { AemAngularCoreWcmComponentsLanguageNavigationV1 } from "@adobe/aem-core-components-angular-base/layout/language-navigation/v1";
+import { InicialComponentComponent } from './components/inicial-component/inicial-component.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   imports: [
@@ -39,9 +41,10 @@ import { AemAngularCoreWcmComponentsLanguageNavigationV1 } from "@adobe/aem-core
     AemAngularCoreWcmComponentsAccordionV1,
     AemAngularCoreWcmComponentsSeparatorV1,
     AemAngularCoreWcmComponentsLanguageNavigationV1,
+    HttpClientModule,
   ],
   providers: [ModelManagerService, { provide: APP_BASE_HREF, useValue: "/" }],
-  declarations: [AppComponent, PageComponent],
+  declarations: [AppComponent, PageComponent, InicialComponentComponent],
   entryComponents: [PageComponent],
   bootstrap: [AppComponent],
 })
